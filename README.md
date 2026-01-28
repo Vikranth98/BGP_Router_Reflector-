@@ -6,7 +6,7 @@
 This project demonstrates a Multi-AS BGP topology using iBGP with Route Reflector and eBGP peering between two autonomous system.
 
 ## Design 
-- AS 500: Router 1, Router 2 (Route-Reflector), Router 5
+- AS 500: Router 1, Router 2 (Route-Reflector), Router 3
 - AS 600: Router 4
 - The BGP is enabled on the loopback of all the routers to avoid single point of failure. (Redundancy)
 - OSPF is used for loopback reachability between the routers
